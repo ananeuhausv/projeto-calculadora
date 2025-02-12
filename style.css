@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #3F2379;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 370px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    text-align: left;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.input{
+    width: 100%;
+    resize: none;
+    margin-bottom: 10px;
+}
+#nota{
+    width: 65%;
+}
+#area{
+    width: 305px;
+    height: 200px;
+}
+
+p {
+    margin-top: 10px;
+}
